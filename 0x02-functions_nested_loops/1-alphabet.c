@@ -7,9 +7,11 @@
 */
 void print_alphabet(void)
 {
-	int namu;
+	char namu;
+	 namu = 'a';
 
-	for (namu = 'a'; namu <= 'z'; namu++)
+	while (namu <= 'z')
 	_putchar(namu);
+	namu++;
 	_putchar('\n');
-	}
+}
