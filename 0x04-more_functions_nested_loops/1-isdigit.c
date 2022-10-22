@@ -1,4 +1,4 @@
-#include "math.h"
+#include "main.h"
 /**
  *_isdigit -checkif numbers are 0 -9
  *@c: char to check
